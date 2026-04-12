@@ -4,12 +4,14 @@ import AvailablePlayers from './AvailablePlayers/AvailablePlayers';
 import SelectedPlayers from './SelectedPlayers/SelectedPlayers';
 
 
-const Players = ({ playersPromise }) => {
-    // console.log(playersPromise);
-    const players = use(playersPromise);
-    // console.log(players);
-    const [selectedType, setSelectedType] = useState("available");
-    console.log(selectedType, "selectedType");
+const Players = ({ playersPromise, setCoin, coin }) => {
+  // console.log(playersPromise);
+  const players = use(playersPromise);
+  // console.log(players);
+  const [selectedType, setSelectedType] = useState("available");
+  console.log(selectedType, "selectedType");
+
+  const [selectedPlayers, setSelectedPlayers] = useState([]);
 
   return (
     <div className="w-[90%] mx-auto">
@@ -19,7 +21,9 @@ const Players = ({ playersPromise }) => {
         {selectedType === "available" ? (
           <h2 className="font-bold text-3xl">Available Players</h2>
         ) : (
-          <h2 className="font-bold text-3xl">Selected Players</h2>
+          <h2 className="font-bold text-3xl">
+            Selected Players({selectedPlayers.length}/{players.length})
+          </h2>
         )}
         <div className="flex row-reverse">
           <button
@@ -32,12 +36,22 @@ const Players = ({ playersPromise }) => {
             onClick={() => setSelectedType("selected")}
             className={`btn ${selectedType === "selected" ? "bg-green-500" : "bg-gray-400"} rounded-l-none`}
           >
-            Selected(0)
+            Selected({selectedPlayers.length})
           </button>
         </div>
       </div>
 
-      { selectedType === "available" ? <AvailablePlayers players={players}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers> }
+      {selectedType === "available" ? (
+        <AvailablePlayers
+          players={players}
+          setCoin={setCoin}
+          coin={coin}
+          setSelectedPlayers={setSelectedPlayers}
+          selectedPlayers={selectedPlayers}
+        ></AvailablePlayers>
+      ) : (
+        <SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers>
+      )}
     </div>
   );
 };
