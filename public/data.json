@@ -1,11 +1,9 @@
 [
-{"id":1,"player_name":"Virat Kohli","player_country":"India","player_type":"Batsman","rating":9.5,"batting_style":"Right-hand bat","bowling_style":"Right-arm medium","price":1500000,"player_image":"https://randomuser.me/api/portraits/men/3.jpg"},
-{"id":2,"player_name":"Babar Azam","player_country":"Pakistan","player_type":"Batsman","rating":9.2,"batting_style":"Right-hand bat","bowling_style":"Right-arm offbreak","price":1400000,"player_image":"https://randomuser.me/api/portraits/men/2.jpg"},
+{"id":50,"player_name":"Dasun Shanaka","player_country":"Sri Lanka","player_type":"All-rounder","rating":8.4,"batting_style":"Right-hand bat","bowling_style":"Right-arm medium","price":1100000,"player_image":"https://randomuser.me/api/portraits/men/50.jpg"},
 {"id":3,"player_name":"Joe Root","player_country":"England","player_type":"Batsman","rating":9.1,"batting_style":"Right-hand bat","bowling_style":"Right-arm offbreak","price":1300000,"player_image":"https://randomuser.me/api/portraits/men/3.jpg"},
 {"id":4,"player_name":"Steve Smith","player_country":"Australia","player_type":"Batsman","rating":9.3,"batting_style":"Right-hand bat","bowling_style":"Right-arm legbreak","price":1450000,"player_image":"https://randomuser.me/api/portraits/men/4.jpg"},
 {"id":5,"player_name":"Kane Williamson","player_country":"New Zealand","player_type":"Batsman","rating":9.0,"batting_style":"Right-hand bat","bowling_style":"Right-arm offbreak","price":1350000,"player_image":"https://randomuser.me/api/portraits/men/5.jpg"},
 
-{"id":6,"player_name":"Shakib Al Hasan","player_country":"Bangladesh","player_type":"All-rounder","rating":9.3,"batting_style":"Left-hand bat","bowling_style":"Slow left-arm orthodox","price":1450000,"player_image":"https://randomuser.me/api/portraits/men/6.jpg"},
 {"id":7,"player_name":"Ben Stokes","player_country":"England","player_type":"All-rounder","rating":9.0,"batting_style":"Left-hand bat","bowling_style":"Right-arm fast-medium","price":1600000,"player_image":"https://randomuser.me/api/portraits/men/7.jpg"},
 {"id":8,"player_name":"Hardik Pandya","player_country":"India","player_type":"All-rounder","rating":8.8,"batting_style":"Right-hand bat","bowling_style":"Right-arm medium-fast","price":1400000,"player_image":"https://randomuser.me/api/portraits/men/8.jpg"},
 {"id":9,"player_name":"Andre Russell","player_country":"West Indies","player_type":"All-rounder","rating":8.9,"batting_style":"Right-hand bat","bowling_style":"Right-arm fast","price":1500000,"player_image":"https://randomuser.me/api/portraits/men/9.jpg"},
@@ -56,6 +54,5 @@
 {"id":46,"player_name":"Tamim Iqbal","player_country":"Bangladesh","player_type":"Batsman","rating":8.9,"batting_style":"Left-hand bat","bowling_style":"Right-arm offbreak","price":1300000,"player_image":"https://randomuser.me/api/portraits/men/46.jpg"},
 {"id":47,"player_name":"Litton Das","player_country":"Bangladesh","player_type":"Wicketkeeper","rating":8.7,"batting_style":"Right-hand bat","bowling_style":"None","price":1250000,"player_image":"https://randomuser.me/api/portraits/men/47.jpg"},
 {"id":48,"player_name":"Angelo Mathews","player_country":"Sri Lanka","player_type":"All-rounder","rating":8.5,"batting_style":"Right-hand bat","bowling_style":"Right-arm medium","price":1150000,"player_image":"https://randomuser.me/api/portraits/men/48.jpg"},
-{"id":49,"player_name":"Wanindu Hasaranga","player_country":"Sri Lanka","player_type":"All-rounder","rating":8.9,"batting_style":"Right-hand bat","bowling_style":"Right-arm legbreak","price":1350000,"player_image":"https://randomuser.me/api/portraits/men/49.jpg"},
-{"id":50,"player_name":"Dasun Shanaka","player_country":"Sri Lanka","player_type":"All-rounder","rating":8.4,"batting_style":"Right-hand bat","bowling_style":"Right-arm medium","price":1100000,"player_image":"https://randomuser.me/api/portraits/men/50.jpg"}
+{"id":49,"player_name":"Wanindu Hasaranga","player_country":"Sri Lanka","player_type":"All-rounder","rating":8.9,"batting_style":"Right-hand bat","bowling_style":"Right-arm legbreak","price":1350000,"player_image":"https://randomuser.me/api/portraits/men/49.jpg"}
 ]

@@ -1,11 +1,12 @@
 import React from 'react';
 import dolarImg from "../../assets/dollar 1.png"
+import logo from "../../assets/logo.png"
 
 const NavBar = ({coin}) => {
     return (
       <div className="navbar bg-base-100 shadow-sm w-[90%] mx-auto">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <img src={logo} alt="" />
         </div>
         <div className="flex-none">
           <button className="flex justify-between items-center gap-2 font-bold text-xl">

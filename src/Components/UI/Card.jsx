@@ -28,7 +28,7 @@ const Card = ({ player, setCoin, coin, setSelectedPlayers, selectedPlayers }) =>
           <div className="flex gap-2 items-center">
             country: <p> {player.player_country} </p>
           </div>
-          <button className="btn">{player.player_type}</button>
+          <p className='font-semibold'> Player Type: {player.player_type}</p>
         </div>
         <div className="divider"></div>
         <h2 className="font-bold">Rating: {player.rating} </h2>
@@ -41,7 +41,7 @@ const Card = ({ player, setCoin, coin, setSelectedPlayers, selectedPlayers }) =>
           <button
             onClick={handleChoosePlayer}
             disabled={isSelected}
-            className="btn"
+            className="btn hover:bg-green-500"
           >
             {isSelected ? "Selected" : "Choose Player"}
           </button>
